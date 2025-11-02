@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time and Time Again</title>
+  </head>
+  <body>
+    <h1>Timer</h1>
+    <form action="post">
+      <label for="hours">Horas</label>
+      <input type="number" name="hours" id="hours" />
+
+      <label for="minutes">Minutos</label>
+      <input type="number" name="minutes" id="minutes" />
+
+      <input type="button" value="Iniciar" onclick="startTimer()" />
+    </form>
+
+    <div id="timer"></div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
